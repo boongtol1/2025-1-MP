@@ -2,14 +2,11 @@
   "java.errors.incompleteClasspath.severity": "ignore",
   "problems.decorations.enabled": false,
   "editor.semanticHighlighting.enabled": false,
-  "editor.errorSquiggles": "never",
+  "editor.errorSquiggles": "enabled",  // 에러 squiggle 유지
   "workbench.colorCustomizations": {
-    "editorError.foreground": "#00000000",
-    "editorWarning.foreground": "#00000000",
-    "editorInfo.foreground": "#00000000",
-    "editorError.border": "#00000000",
-    "editorWarning.border": "#00000000",
-    "editorInfo.border": "#00000000"
+    "editorWarning.foreground": "#00000000",     // 노란 밑줄 글자색 제거
+    "editorWarning.border": "#00000000",         // 노란 밑줄 경계선 제거
+    "editorInfo.foreground": "#00000000",        // 파란줄 정보성 경고 제거
+    "editorInfo.border": "#00000000"             // 파란줄 테두리 제거
   }
 }
-
