@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- 기본 버튼 스타일 -->
+    <style name="CalcButtonBase" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- 숫자 버튼 -->
+    <style name="CalcButtonDark" parent="CalcButtonBase">
+        <item name="android:backgroundTint">#333333</item>
+    </style>
+
+    <!-- 연산자 버튼 -->
+    <style name="CalcButtonOrange" parent="CalcButtonBase">
+        <item name="android:backgroundTint">#FFA500</item>
+    </style>
+
+    <!-- AC, ±, % 등 기능 버튼 -->
+    <style name="CalcButtonGray" parent="CalcButtonBase">
+        <item name="android:backgroundTint">#A5A5A5</item>
+    </style>
+
+</resources>

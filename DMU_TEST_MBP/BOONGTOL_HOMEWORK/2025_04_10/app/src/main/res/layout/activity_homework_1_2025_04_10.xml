@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- 프로필 이미지 -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_launcher_foreground"
+            android:contentDescription="Profile Image" />
+
+        <!-- 이름 / 이메일 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이름: 이승훈" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이메일: boongtol@icloud.com" />
+
+        <!-- 관심 기술 체크박스 -->
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="관심 기술" />
+
+        <CheckBox android:id="@+id/checkAndroid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Android" android:enabled="false"/>
+        <CheckBox android:id="@+id/checkIOS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="iOS" android:enabled="false"/>
+        <CheckBox android:id="@+id/checkWeb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Web" android:enabled="false"/>
+        <CheckBox android:id="@+id/checkAI" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AI" android:enabled="false"/>
+        <CheckBox android:id="@+id/checkIoT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IoT" android:enabled="false"/>
+        <CheckBox android:id="@+id/checkXR" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="XR" android:enabled="false"/>
+
+        <!-- 토글 버튼 -->
+        <Button
+            android:id="@+id/toggleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="수정" />
+
+        <!-- 소개글 -->
+        <EditText
+            android:id="@+id/editIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="자기 소개를 입력하세요."
+            android:enabled="false"/>
+
+        <!-- 관심 기술 결과 출력 -->
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <!-- 인사 버튼 -->
+        <Button
+            android:id="@+id/greetButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="인사하기" />
+    </LinearLayout>
+</ScrollView>

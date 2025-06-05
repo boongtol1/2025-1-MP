@@ -1,0 +1,15 @@
+{
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "problems.decorations.enabled": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.errorSquiggles": "never",
+  "workbench.colorCustomizations": {
+    "editorError.foreground": "#00000000",
+    "editorWarning.foreground": "#00000000",
+    "editorInfo.foreground": "#00000000",
+    "editorError.border": "#00000000",
+    "editorWarning.border": "#00000000",
+    "editorInfo.border": "#00000000"
+  }
+}
+

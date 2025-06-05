@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="영화 포스터 확대" />
+</LinearLayout>
